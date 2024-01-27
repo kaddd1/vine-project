@@ -1,0 +1,63 @@
+.footer {
+    height: 200px;
+    // padding: 33px 91px 35px 210px;
+    background-color: black;
+    padding: 33px 0 0;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 899px;
+        margin: 0 auto;
+        margin-left: 150px;
+    }
+
+    &__location {
+        width: 174px;
+        height: 33px;
+        color: rgba(255, 255, 255, 0.70);
+        font-family: "Sans-Pro";
+        font-size: 16px;
+        font-weight: 400;
+        margin: 33px 0 27px;
+    }
+
+    &__mail {
+        color: rgba(255, 255, 255, 0.70);
+        font-family: "Sans-Pro";
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        margin-bottom: 16px;
+    }
+
+    &__logo {
+        width: 92px;
+        height: 93px;
+        margin: 0 auto;
+    }
+
+    &__wrap-img {
+        margin-bottom: 22px;
+    }
+
+    &__project {
+        color: #FFF;
+        font-family: "Sans-Pro";
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 3.6px;
+        margin: 0 auto;
+        margin-left: 3px;
+    }
+
+    &__copyright {
+        margin: 93px 0 16px;
+        color: rgba(255, 255, 255, 0.70);
+        font-family: "Sans-Pro";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px; /* 118.75% */
+    }
+
+}

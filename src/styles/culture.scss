@@ -1,0 +1,33 @@
+.culture {
+    background: url("../../assets/culturebg.jpg") center center/cover no-repeat;
+    height: 640px;
+    padding: 77px 200px 0;
+
+    &__headline {
+        margin: 0 auto 49px;
+        width: 795px;
+        height: 138px;
+        color: #FFF;
+        text-align: center;
+        font-family: 'Notable';
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+
+    &__wrap-btn {
+        margin: 0 auto;
+        width: 163px;
+    }
+
+    &__sub-headline {
+        width: 524px;
+        color: #FFF;
+        text-align: center;
+        font-family: "Source Sans Pro";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        margin: 88px auto 0;
+    }
+}

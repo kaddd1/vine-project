@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px) { 
+    .culture {
+        background: url('../../assets/mobile-culture.jpg');
+        padding: 49px 0 46px 0;
+        &__headline {
+            width: 320px;
+            height: 145px;
+            margin-bottom: 90px;
+            font-size: 37px;
+        }
+        &__sub-headline {
+            width: 378px;
+            margin: 67px auto 0;
+        }
+    }
+
+}

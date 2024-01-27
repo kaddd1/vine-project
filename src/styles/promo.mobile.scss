@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 480px;
+    }
+    .promo-section {
+        background: url(../../assets/mobile-vine.jpg);
+        padding-top: 41px;
+        &__promo-text {
+            margin: 0;
+            width: 480px;
+            padding: 90px 0 0 0;
+            &__descr {
+                width: 400px;
+                color: rgba($color: #FFFFFF, $alpha: 0.7);
+            }
+        }
+        &__nav {
+            width: 91px;
+            margin-left: 35px;
+            nav {
+                display: none;
+            }
+        }
+        &__burger {
+            display: block;
+        }
+    }
+}

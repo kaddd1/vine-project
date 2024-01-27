@@ -1,0 +1,23 @@
+* {
+    font-family: 'Sans-Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import "./footer.scss";
+@import "./promo.scss";
+@import "./kit/fonts.scss";
+@import "./content.scss";
+@import "./culture.scss";
+
+
+@import "./promo.mobile";
+@import "./content.mobile.scss";
+@import "./culture.mobile.scss";
+@import "./footer.mobile.scss";

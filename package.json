@@ -1,0 +1,27 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --reporters=jest-junit",
+    "sass": "sass --watch src/styles/style.scss src/dist/styles/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "html-validate": "^8.9.1",
+    "jest": "^29.7.0",
+    "jest-junit": "^16.0.0",
+    "jsdom": "^24.0.0",
+    "parse-gitignore": "^2.0.0",
+    "sass": "^1.70.0"
+  },
+  "jest-junit": {
+    "suitName": "junit test results",
+    "outputDirectory": ".",
+    "outputName": "junit.xml"
+  }
+}
